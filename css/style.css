@@ -1,0 +1,99 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  width:100%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: underline dotted;
+}
+
+/* a::after {
+  content: "→";
+  vertical-align:super;
+  font-size:50%;
+} */
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.light-text {
+  color: #aaa;
+}
+
+.boxed {
+  border: 1px solid #aaa;
+}
+
+header {
+  text-align: center;
+  font-size:15px;
+}
+
+header h1 {
+  margin:0;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header ul li {
+  display: inline;
+  margin: 5px 5px 0px 0px;
+}
+
+section {
+  max-width: 740px;
+  margin:auto;
+  margin-bottom: 50px;
+}
+
+section table {
+  border-collapse:collapse;
+}
+
+section table td {
+  padding-left:10px;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+}
+
+section table tr .centered {
+  text-align: center;
+}
+
+section table tr .left {
+  width: 100px;
+}
+section table tr .middle {
+  width: 500px;
+}
+section table tr .right {
+  width: 140px;
+}
+
+footer {
+  text-align:center;
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  overflow: hidden;
+}
+
+footer hr{
+  margin-top:5px;
+  margin-bottom:0px;
+}
