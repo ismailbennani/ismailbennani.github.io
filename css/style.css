@@ -82,6 +82,15 @@ section table tr .right {
   width: 140px;
 }
 
+section ul {
+  list-style-type: none;
+}
+
+.fxed-width {
+  width:15px;
+  text-align:center;
+}
+
 footer {
   text-align:center;
 
