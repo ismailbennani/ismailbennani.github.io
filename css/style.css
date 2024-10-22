@@ -1,55 +1,7 @@
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
-  width: 100%;
-  margin: 0 auto;
-}
-
 a {
   text-decoration: underline dotted !important;
 }
 
-.light-text {
-  color: #aaa;
-}
-
-.boxed {
-  border: 1px solid #aaa;
-}
-
-header {
-  text-align: center;
-  font-size: 15px;
-}
-
-header h1 {
-  margin: 0;
-}
-
-header ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-header ul li {
-  display: inline;
-  margin: 5px 5px 0px 0px;
-}
-
-section table {
-  border-collapse: collapse;
-}
-
-section table td {
-  padding-left: 10px;
-  border-top: 1px solid #aaa;
-  border-bottom: 1px solid #aaa;
-}
-
-section ul {
+ul {
   list-style-type: none;
 }
