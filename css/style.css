@@ -9,14 +9,9 @@ body {
 }
 
 a {
-  text-decoration: underline dotted;
+  color: black !important;
+  text-decoration: underline dotted !important;
 }
-
-/* a::after {
-  content: "→";
-  vertical-align:super;
-  font-size:50%;
-} */
 
 .center {
   display: block;
@@ -84,11 +79,6 @@ section table tr .right {
 
 section ul {
   list-style-type: none;
-}
-
-.fxed-width {
-  width:15px;
-  text-align:center;
 }
 
 footer {
